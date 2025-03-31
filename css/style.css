@@ -16,7 +16,18 @@ body {
   margin: 0;
   font-size: 14px;
 }
+@font-face {
+  font-family: 'jacatra';
+  src: url(/fonts/Disko.ttf);
+}
 
+h9 {
+
+  font-family:'jacatra';
+  font-weight: bold;
+  font-size: 50px;
+  color: #ee2906;
+}
 /* line 9, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 .message_submit_form:focus {
   outline: none;
